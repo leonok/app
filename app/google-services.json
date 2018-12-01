@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "888106083801",
+    "firebase_url": "https://planoestudosapp.firebaseio.com",
+    "project_id": "planoestudosapp",
+    "storage_bucket": "planoestudosapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888106083801:android:14c6be1ebcdf8371",
+        "android_client_info": {
+          "package_name": "com.eng.planoestudos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888106083801-joofpnb1u350n8d8hvvna6ospm6c58f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eng.planoestudos",
+            "certificate_hash": "3c3df54b106cf3d6b70d9aa2f86368f08b9d0227"
+          }
+        },
+        {
+          "client_id": "888106083801-g4d3cmal91sqnlo8bu7h4k1rtcoir2s0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRytXG58u55_pOelZFC1hbXUHM37ns9nY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888106083801-g4d3cmal91sqnlo8bu7h4k1rtcoir2s0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:background="@drawable/fundo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eng.planoestudos.CodeTelas.RedefinirsenhaActivity">
+
+    <ImageView
+        android:id="@+id/id_logoTelaRedefSenha"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/logo"
+        android:scaleType="fitCenter" />
+
+    <RelativeLayout
+        android:layout_below="@id/id_logoTelaRedefSenha"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/telaSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/id_EtSenhaAtualTelaRedefSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_senha"
+                android:ems="10"
+                android:hint="Senha Atual"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/id_EtNovaSenhaTelaRedefSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_senha"
+                android:ems="10"
+                android:hint="Nova Senha"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/id_EtConfirmaNovaSenhaTelaRedefSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_senha"
+                android:ems="10"
+                android:hint="Confirmar Nova senha"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/id_btnRedefSenhaTelaRedefSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/telaSignup"
+        android:layout_alignLeft="@+id/telaSignup"
+        android:layout_alignRight="@+id/telaSignup"
+        android:layout_alignStart="@+id/telaSignup"
+        android:layout_below="@+id/telaSignup"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/redondado"
+        android:text="Redefinir Senha"
+        android:textColor="@color/letra"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="@drawable/fundo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eng.planoestudos.CodeTelas.EscolhamateriaActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/id_tvEscolhaMaterias"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/fundo"
+        android:textColor="@color/letra"
+        android:gravity="center"
+        android:text="Escolha suas materias"
+        android:textSize="26dp"/>
+
+    <RelativeLayout
+
+        android:background="@color/fundo"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        tools:context=".escolhamateria">
+
+        <LinearLayout
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/id_llCheckboxContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".escolhamateria">
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <Button
+
+        android:id="@+id/id_btnAvancarMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_llCheckboxContainer"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/redondado"
+        android:text="Avançar"
+        android:textAllCaps="false"
+        android:textColor="@color/letra"
+        android:textSize="18dp" />
+
+
+
+
+</LinearLayout>

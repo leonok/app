@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:background="@drawable/fundo_areas"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eng.planoestudos.CodeTelas.EscolhaareaActivity">
+
+
+    <TextView
+        android:id="@+id/id_tvEscolhaArea"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="50dp"
+        android:textColor="@color/letra"
+        android:text="Escolha sua area"
+        android:textSize="26dp"
+        android:gravity="center"/>
+
+    <ScrollView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id_tvEscolhaArea"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <GridLayout
+
+
+            android:layout_below="@+id/id_tvEscolhaArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/id_btnPolicial"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:background="@drawable/fundo_azul"
+                android:drawableTop="@drawable/ic_policia"
+                android:text="Policial"
+                android:textAllCaps="false"
+                android:textColor="@color/letra"
+                android:textSize="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/id_btnFiscal"
+                android:background="@drawable/fundo_vermelho"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:drawableTop="@drawable/ic_fiscal"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:textColor="@color/letra"
+                android:text="Fiscal"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+
+            <Button
+                android:id="@+id/id_btnTribunal"
+                android:background="@drawable/fundo_verde"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textColor="@color/letra"
+                android:text="Tribunais"
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_tribunal"
+                android:layout_gravity="fill"
+                android:textSize="20dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+
+            <Button
+                android:id="@+id/id_btnMilitar"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/fundo_ciano"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:textColor="@color/letra"
+                android:drawableTop="@drawable/ic_militar"
+                android:text="Militar"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+
+
+
+            <Button
+                android:id="@+id/id_btnOutrasAreas"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:text="Outras Areas"
+                android:textColor="@color/letra"
+                android:drawableTop="@drawable/ic_outrasareas"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/fundo_roxo"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+
+            <Button
+                android:id="@+id/id_btnOab"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/fundo_amarelo"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textColor="@color/letra"
+                android:drawableTop="@drawable/ic_oab"
+                android:text="OAB"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+
+        </GridLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:background="@drawable/fundo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eng.planoestudos.CodeTelas.SignupActivity">
+
+    <ImageView
+        android:id="@+id/id_ivLogoSignup"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/logo"
+        android:scaleType="fitCenter" />
+
+    <RelativeLayout
+        android:layout_below="@id/id_ivLogoSignup"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/id_rlTelaSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/id_llSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/id_etNomeSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_login"
+                android:ems="10"
+                android:hint="Nome"
+                android:inputType="textPersonName"
+                android:textColor="@color/letra"
+                android:textColorHint="@color/letra" />
+
+            <EditText
+                android:id="@+id/id_etEmailSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/letra"
+                android:textColorHint="@color/letra" />
+
+            <EditText
+                android:id="@+id/id_etSenhaSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_senha"
+                android:ems="10"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:textColor="@color/letra"
+                android:textColorHint="@color/letra" />
+
+            <EditText
+                android:id="@+id/id_etSenhaSignup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_senha"
+                android:ems="10"
+                android:hint="Confirmar senha"
+                android:inputType="textPassword"
+                android:textColor="@color/letra"
+                android:textColorHint="@color/letra" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/id_btnRegistrarSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_llSignup"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/redondado"
+            android:text="Registrar"
+            android:textAllCaps="false"
+            android:textColor="@color/letra"
+            android:textSize="19dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

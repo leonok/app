@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/fundo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eng.planoestudos.CodeTelas.RecuperarsenhaActivity">
+
+    <ImageView
+        android:id="@+id/id_ivLogoResetsenha"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/logo"
+        android:scaleType="fitCenter" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/id_ivLogoResetsenha">
+
+        <LinearLayout
+            android:id="@+id/id_llResetsenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/id_etEmailRecupera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email"
+                android:ems="10"
+                android:hint="Email"
+                android:textColor="@color/letra"
+                android:textColorHint="@color/letra" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/id_btnEnviarNovaSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_llResetsenha"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/redondado"
+            android:text="Enviar nova senha"
+            android:textAllCaps="false"
+            android:textColor="@color/letra"
+            android:textSize="19dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#050505</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="preto">#4bffffff</color>
+
+    <color name="letra">#000000</color>
+    <color name="vermelho">#FFEB1212</color>
+
+    <color name="fundo">#3be2eaf7</color>
+
+
+</resources>
