@@ -4,10 +4,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/fundo_amarelo"
+    android:background="@drawable/fundo_ciano"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.eng.planoestudos.CodeTelas.LoginActivity">
+
 
     <ImageView
         android:id="@+id/id_ivLogoLogin"
