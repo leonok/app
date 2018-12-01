@@ -10,6 +10,7 @@
     tools:context="com.eng.planoestudos.CodeTelas.LoginActivity">
 
 
+
     <ImageView
         android:id="@+id/id_ivLogoLogin"
         android:layout_width="250dp"
